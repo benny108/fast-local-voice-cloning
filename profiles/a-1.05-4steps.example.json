@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "profile_name": "reference-a-1.05-4steps",
+  "model_name": "zipvoice_distill",
+  "steps": 4,
+  "speed": 1.05,
+  "guidance_scale": 3.0,
+  "seed": 666,
+  "threads": 4,
+  "device": "mps",
+  "vocoder_device": "cpu",
+  "max_duration": 30.0,
+  "pre_clamp_peak_limit": 0.85
+}

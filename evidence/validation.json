@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-07",
+  "unit_test_methods_passed": 5,
+  "invalid_config_subcases_checked": 8,
+  "dry_run_passed": true,
+  "actual_existing_environment_inference_passed": true,
+  "fresh_environment_install_tested": false,
+  "steps": 4,
+  "speed": 1.05,
+  "audio_seconds": 62.414,
+  "sample_rate": 24000,
+  "nonempty_finite_unclipped": true,
+  "same_samples_as_previously_approved_local_output": true,
+  "added_inter_sentence_silence": false,
+  "new_wrapper_generation_with_loading_seconds": 8.737063417211175,
+  "reference_assets_published": false,
+  "test_audio_published": false,
+  "human_listening_of_wrapper_output": "not separately scored; waveform comparison recorded"
+}

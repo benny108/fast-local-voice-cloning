@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "note": "Catalog template only, not a built-in voice library or trained voice model. Supply your own recordings. The inference CLI takes the selected paths explicitly.",
+  "voices": [
+    {
+      "id": "voice-a",
+      "name": "参考 A",
+      "reference_wav": "private/voices/voice-a/reference.wav",
+      "reference_transcript": "private/voices/voice-a/reference.txt",
+      "authorization": "replace-with-your-own-recording-or-documented-permission"
+    },
+    {
+      "id": "voice-b",
+      "name": "参考 B",
+      "reference_wav": "private/voices/voice-b/reference.wav",
+      "reference_transcript": "private/voices/voice-b/reference.txt",
+      "authorization": "replace-with-your-own-recording-or-documented-permission"
+    }
+  ]
+}

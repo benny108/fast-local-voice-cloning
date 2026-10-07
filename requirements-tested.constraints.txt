@@ -1,0 +1,15 @@
+# Compatibility constraints observed on Apple M5 / Python 3.12.14.
+# Install upstream ZipVoice requirements with -c this file; this is not a lockfile.
+torch==2.5.1
+torchaudio==2.5.1
+numpy==1.26.4
+soundfile==0.14.0
+lhotse==1.33.0
+pypinyin==0.55.0
+jieba==0.42.1
+vocos==0.1.0
+piper-phonemize==1.4.7
+cn2an==0.5.24
+inflect==7.5.0
+huggingface-hub==0.36.2
+setuptools<81

@@ -1,0 +1,17 @@
+{
+  "purpose": "Integrity of generic model files used for tests, not a speaker fingerprint. No reference-audio hash is distributed.",
+  "models": [
+    {
+      "file": "model.pt",
+      "component": "ZipVoice-Distill",
+      "bytes": 491318136,
+      "sha256": "745855037478eb888cfa7a3603c1aa9f663f22a72d94cc1c37787228ff422095"
+    },
+    {
+      "file": "pytorch_model.bin",
+      "component": "Vocos",
+      "bytes": 54365991,
+      "sha256": "97ec976ad1fd67a33ab2682d29c0ac7df85234fae875aefcc5fb215681a91b2a"
+    }
+  ]
+}

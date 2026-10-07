@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-07",
+  "machine": "Apple M5",
+  "memory_gb": 32,
+  "python": "3.12.14",
+  "torch": "2.5.1",
+  "torchaudio": "2.5.1",
+  "model": "ZipVoice-Distill",
+  "model_device": "mps",
+  "vocoder_device": "cpu",
+  "quantized": false,
+  "seed": 666,
+  "threads": 4,
+  "upstream_commit": "2f7326fbfe999a3ad179e3f1af82a424d4a62819",
+  "measurement_limitations": [
+    "Single local test per run, not a throughput guarantee.",
+    "Initialization plus generation excludes MP3 encoding, normalization and ASR.",
+    "19-sentence totals have a different timing scope and speech speeds.",
+    "No speaker-similarity or naturalness score was measured.",
+    "Reference audio, transcript, features and generated speech are not distributed."
+  ],
+  "runs": [
+    {
+      "case": "current-story-full-text",
+      "steps": 4,
+      "speed": 1.05,
+      "text_chinese_characters": 271,
+      "audio_seconds": 62.414,
+      "initialization_seconds": 3.460739499889314,
+      "generation_seconds": 7.584456500131637,
+      "initialization_plus_generation_seconds": 11.045196000020951,
+      "reference_seconds": 2.1,
+      "added_silence": false
+    },
+    {
+      "case": "current-story-full-text",
+      "steps": 4,
+      "speed": 1.25,
+      "text_chinese_characters": 271,
+      "audio_seconds": 52.456,
+      "initialization_seconds": 2.882611208129674,
+      "generation_seconds": 6.133742167148739,
+      "initialization_plus_generation_seconds": 9.016353375278413,
+      "reference_seconds": 2.1,
+      "added_silence": false
+    },
+    {
+      "case": "earlier-other-story-step-comparison",
+      "steps": 4,
+      "speed": 1.25,
+      "text_chinese_characters": 293,
+      "audio_seconds": 54.578,
+      "initialization_seconds": 3.4137121248058975,
+      "generation_seconds": 6.363882209174335,
+      "initialization_plus_generation_seconds": 10.163373125,
+      "reference_seconds": 2.1,
+      "added_silence": false
+    },
+    {
+      "case": "earlier-other-story-step-comparison",
+      "steps": 8,
+      "speed": 1.25,
+      "text_chinese_characters": 293,
+      "audio_seconds": 54.558,
+      "initialization_seconds": 2.6042574578896165,
+      "generation_seconds": 8.968117666896433,
+      "initialization_plus_generation_seconds": 12.0038145,
+      "reference_seconds": 2.1,
+      "added_silence": false
+    },
+    {
+      "case": "current-story-19-independent-sentences",
+      "steps": 4,
+      "speed": "paragraph-dependent 1.08–1.25",
+      "audio_seconds": 62.164,
+      "generation_and_sentence_assembly_seconds": 22.613874580711126,
+      "includes_initialization": false,
+      "inserted_inter_sentence_silence_seconds": 0.5,
+      "inter_sentence_pause_count": 18,
+      "separate_inference_calls": 19,
+      "text_chinese_characters": 271
+    }
+  ],
+  "same_text_step_comparison": {
+    "generation_reduction_percent": 29.038819008084417,
+    "initialization_plus_generation_reduction_percent": 15.332137755044462
+  }
+}
